@@ -18,36 +18,31 @@ const About = () => {
 
           <div className="animate-on-scroll">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              About <span className="text-accent">AAYOJAN Ai</span>
+              About <span className="text-accent">AAYOJAN AI</span>
             </h2>
             
             <div className="space-y-4 text-lg text-muted-foreground">
               <p>
-                At AAYOJAN Ai, we believe in the transformative power of technology. 
-                Our mission is embodied in our tagline: <strong className="text-foreground">"Techno - Sankalp to Siddhi"</strong> 
-                - turning technological aspirations into achievements.
+                Though new to the industry, we've already developed <strong className="text-accent">6+ custom software solutions</strong> for clients across various sectors like education, HR, dairy, and inventory management. We combine smart technology with a deep understanding of operational needs to help organizations work simpler, faster, and smarter.
               </p>
               
               <p>
-                We specialize in creating innovative solutions that bridge the gap between 
-                vision and reality. With cutting-edge AI and technology expertise, we empower 
-                businesses to achieve their goals efficiently and effectively.
+                At AAYOJAN AI, we're not just building software — we're building <strong className="text-foreground">trust, efficiency, and long-term partnerships</strong> with every solution we deliver.
               </p>
               
-              <p>
-                Our team of dedicated professionals combines technical excellence with creative 
-                problem-solving to deliver solutions that not only meet but exceed expectations.
+              <p className="text-foreground font-medium">
+                AAYOJAN AI is the brainchild of <strong className="text-accent">Pranav Ladge</strong>, who serves as the Chief Operating Officer and Owner. With a passion for technology and a sharp understanding of operational challenges faced by growing institutions, Pranav Sir envisioned AAYOJAN AI as a bridge between complex business needs and simple, efficient digital solutions.
               </p>
 
               <div className="pt-6">
                 <div className="grid grid-cols-2 gap-6">
-                  <div className="text-center p-4 bg-accent/5 rounded-lg border border-accent/20">
-                    <div className="text-3xl font-bold text-accent mb-1">100+</div>
-                    <div className="text-sm text-muted-foreground">Projects Delivered</div>
+                  <div className="text-center p-4 bg-accent/5 rounded-lg border border-accent/20 glow-hover">
+                    <div className="text-3xl font-bold text-accent mb-1">6+</div>
+                    <div className="text-sm text-muted-foreground">Custom Solutions Delivered</div>
                   </div>
-                  <div className="text-center p-4 bg-accent/5 rounded-lg border border-accent/20">
-                    <div className="text-3xl font-bold text-accent mb-1">50+</div>
-                    <div className="text-sm text-muted-foreground">Happy Clients</div>
+                  <div className="text-center p-4 bg-accent/5 rounded-lg border border-accent/20 glow-hover">
+                    <div className="text-3xl font-bold text-accent mb-1">Pune</div>
+                    <div className="text-sm text-muted-foreground">Based in India</div>
                   </div>
                 </div>
               </div>

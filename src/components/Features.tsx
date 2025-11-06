@@ -1,26 +1,21 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Sparkles, Rocket, Target, Zap } from "lucide-react";
+import { Users, Fuel, Package } from "lucide-react";
 
 const features = [
   {
-    icon: Sparkles,
-    title: "AI-Powered Innovation",
-    description: "Leverage cutting-edge artificial intelligence to transform your business processes and drive efficiency.",
+    icon: Users,
+    title: "HR & Workforce Management",
+    description: "Employee database, leave & attendance tracking, payroll systems, appraisal and compliance reporting, task management and work checklist.",
   },
   {
-    icon: Rocket,
-    title: "Rapid Deployment",
-    description: "From concept to launch in record time with our agile development methodology and proven frameworks.",
+    icon: Fuel,
+    title: "Fuel & Fleet Management",
+    description: "Vehicle-wise fuel tracking, document management (RC, insurance, permits), workshop & maintenance stock tracking, alerts for due services.",
   },
   {
-    icon: Target,
-    title: "Precision Solutions",
-    description: "Tailored technology solutions designed to meet your specific business objectives and challenges.",
-  },
-  {
-    icon: Zap,
-    title: "Performance Optimized",
-    description: "Built for speed and scalability, ensuring your systems perform flawlessly under any load.",
+    icon: Package,
+    title: "Retail & Small Warehouses",
+    description: "Material & inventory management, stock alerts, supplier tracking, sales & purchase records, inward & outward stock, asset management, QR & barcode tracking.",
   },
 ];
 
@@ -30,14 +25,14 @@ const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-on-scroll">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Our <span className="text-accent">Expertise</span>
+            Industries We <span className="text-accent">Serve</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive technology solutions designed to elevate your business to new heights
+            Tailored software solutions for small and medium-sized businesses across various sectors
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <Card
               key={index}
